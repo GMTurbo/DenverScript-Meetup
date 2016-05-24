@@ -2,11 +2,7 @@ function Body(properties) {
   var position = {
       x: 0,
       y: 0
-    },
-    velocity = {
-      dx: 0,
-      dy: 0
-    },
+    }
     radius, opacity;
 
   this.createBody = function() {
@@ -38,7 +34,7 @@ function Body(properties) {
   };
 
   this.move = function() {
-
+    //not yet
   };
 
   this.getX = function() {

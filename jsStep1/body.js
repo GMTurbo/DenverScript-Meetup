@@ -2,7 +2,7 @@ function Body(properties) {
   var position = {
       x: 0,
       y: 0
-    }
+    },
     radius, opacity;
 
   this.createBody = function() {
